@@ -5,7 +5,7 @@ import sys
 from apis.urlshortner import add_urls
 
 app = Flask(__name__)
-# app.register_blueprint(sms_twilio)
+app.register_blueprint(add_urls)
 # app.register_blueprint(bar_chart)
 
 @app.route('/')
