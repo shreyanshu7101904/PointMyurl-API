@@ -2,7 +2,7 @@ from flask import Flask
 import sys
 # from apis.test.test import sms_twilio
 # from apis.charts.bar.BarChart import bar_chart
-
+from apis.urlshortner import add_urls
 
 app = Flask(__name__)
 # app.register_blueprint(sms_twilio)
